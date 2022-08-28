@@ -1,7 +1,76 @@
-/* font-family: 'Nunito', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+header {
+  margin: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #272142;
+}
+
+.active a {
+  color: #662eed;
+}
+
+.headline-image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.background-image {
+  filter: brightness(70%);
+}
+
+.headline-text {
+  color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 h1 {
-    font-family: 'Nunito', sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 98px;
+}
+
+.headline-paragraph {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+}
+
+.card-image {
+  width: 90%;
+}
+
+.dish-description {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.logo-image {
+  width: 150px;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
