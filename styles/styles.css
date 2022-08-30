@@ -134,11 +134,38 @@ footer {
     line-height: 1;
   }
 
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h3.about {
+    margin: 50px 0 20px 0;
+  }
+
   h4 {
     font-size: 20px;
     padding: 5px 0 0 0;
     text-align: center;
   }
+
+.about-description {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-headline {
+  margin: 50px 0 30px 0;
+}
+
+.recipe-headline {
+  text-align: center;
+}
+.about-dish-description {
+  padding: 0;
+  text-align: center;
+  line-height: normal;
+}
 
   .logo-image {
     width: 70px;
