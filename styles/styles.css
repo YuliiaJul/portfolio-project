@@ -67,13 +67,18 @@ h5 {
   font-size: 24px;
 }
 
+h6 {
+  color: #F65282;
+  font-weight: bold;
+}
+
 .headline-paragraph {
   font-size: 24px;
   font-weight: bold;
   line-height: 35px;
 }
 
-.about-headline {
+h1.headline {
   margin: 50px 0 120px 0;
 }
 
@@ -98,11 +103,18 @@ text-align: left;
   margin-bottom: 20px;
 }
 
-.about-dish-description {
+.recipe-description {
   font-size: 16px;
   text-align: left;
   line-height: 2;
   padding: 30px;
+}
+
+.recipe-steps {
+  font-size: 18px;
+  text-align: left;
+  line-height: 2;
+  padding: 0;
 }
 
 .follow-paragraph {
@@ -128,10 +140,24 @@ footer {
   font-size: 16px;
 }
 
+li {
+  list-style: none;
+  padding: 10px 0;
+  max-width: 80%;
+}
+
+.line {
+  border-top: 1px dashed #67D5D2;
+  margin: 0 0 0 10px;
+  max-width: 90%;
+  
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 28px;
     line-height: 1;
+    margin-top: 20px;
   }
 
   h2 {
@@ -139,7 +165,13 @@ footer {
     text-align: center;
   }
 
+  h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+
   h3.about {
+    font-size: 24px;
     margin: 50px 0 20px 0;
   }
 
@@ -154,7 +186,7 @@ footer {
     padding: 0;
   }
 
-  .about-headline {
+  h1.headline {
   margin: 50px 0 30px 0;
 }
 
@@ -165,6 +197,10 @@ footer {
   padding: 0;
   text-align: center;
   line-height: normal;
+}
+
+.recipe-steps {
+  margin: 0 15px;
 }
 
   .logo-image {
