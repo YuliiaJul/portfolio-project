@@ -7,13 +7,28 @@ header {
   margin: 20px;
 }
 
-.nav-link {
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
   font-size: 16px;
   font-weight: bold;
+  padding: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
   color: #272142;
 }
 
-.active a {
+nav li.active a {
   color: #662eed;
 }
 
@@ -35,9 +50,13 @@ header {
   transform: translate(-50%, -50%);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
-  }
+}
 
 h1 {
   font-size: 72px;
@@ -47,15 +66,15 @@ h1 {
 h2 {
   font-size: 64px;
   text-align: left;
-  }
+}
 
 h3 {
-font-size: 36px;
+  font-size: 36px;
 }
 
 h3.about {
   margin: 100px 0 40px 0;
-  }
+}
 
 h4 {
   font-size: 28px;
@@ -68,7 +87,7 @@ h5 {
 }
 
 h6 {
-  color: #F65282;
+  color: #f65282;
   font-weight: bold;
 }
 
@@ -83,9 +102,9 @@ h1.headline {
 }
 
 .about-description {
-font-size: 18px;
-padding: 30px 0;
-text-align: left;
+  font-size: 18px;
+  padding: 30px 0;
+  text-align: left;
 }
 
 .about-section {
@@ -136,21 +155,31 @@ li {
 li.contact {
   text-align: left;
   font-size: 24px;
+  color: #272142;
 }
 
 li.address {
-  color: #662EED;
+  color: #662eed;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   text-align: left;
 }
 
+.contact a {
+  text-decoration: none;
+  color: #272142;
+}
+
+.contact a:hover {
+  color: #662eed;
+  transition: all 100ms ease-in-out;
+}
+
 .line {
-  border-top: 1px dashed #67D5D2;
+  border-top: 1px dashed #67d5d2;
   margin: 0 0 0 10px;
   max-width: 90%;
-  
 }
 
 footer {
@@ -158,7 +187,7 @@ footer {
 }
 
 .logo-image {
-  width: 150px;
+  max-width: 150px;
 }
 
 .copyright {
@@ -194,27 +223,27 @@ footer {
     text-align: center;
   }
 
-.about-description {
+  .about-description {
     text-align: center;
     padding: 0;
   }
 
   h1.headline {
-  margin: 50px 0 30px 0;
-}
+    margin: 50px 0 30px 0;
+  }
 
-.recipe-headline {
-  text-align: center;
-}
-.about-dish-description {
-  padding: 0;
-  text-align: center;
-  line-height: normal;
-}
+  .recipe-headline {
+    text-align: center;
+  }
+  .about-dish-description {
+    padding: 0;
+    text-align: center;
+    line-height: normal;
+  }
 
-.recipe-steps {
-  margin: 0 15px;
-}
+  .recipe-steps {
+    margin: 0 15px;
+  }
 
   .logo-image {
     width: 70px;
