@@ -114,12 +114,21 @@ h1.headline {
   justify-content: center;
 }
 
+.contact-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .card-image {
   width: 90%;
 }
 
 .dish-description {
   margin-bottom: 20px;
+}
+
+.recipe-image {
+  padding: 0 50px 50px 50px;
 }
 
 .recipe-description {
@@ -188,6 +197,15 @@ footer {
 
 .logo-image {
   max-width: 150px;
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: #272142;
+}
+
+footer .social-links a:hover {
+  color: #662eed;
 }
 
 .copyright {
