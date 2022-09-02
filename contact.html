@@ -30,9 +30,37 @@
   </head>
 
   <body>
+    <header>
+      <div class="container">
+        <nav class="d-block d-lg-flex justify-content-between">
+          <img
+            src="images/logo.png"
+            class="logo-image d-none d-lg-block"
+            alt="SheCodes logo"
+          />
+          <ul>
+            <li>
+              <a href="index.html" title="Homepage">Home</a>
+            </li>
+            <li>
+              <a href="about.html" title="About Recipe Collection">About</a>
+            </li>
+            <li>
+              <a href="recipe.html" title="All my recipes">Recipe</a>
+            </li>
+            <li class="active">
+              <a href="contact.html" title="Contact Recipe Collection"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <div class="container">
       <h1 class="p-5">Contact Us</h1>
-      <div class="row contact-section justify-content-center">
+      <div class="row p-4 contact-section justify-content-center">
         <div class="col-lg-6">
           <img
             src="images/about.png"
@@ -51,7 +79,9 @@
             <li class="address">email</li>
             <li class="contact">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:info@shecodes.io">info@shecodes.io</a>
+              <a href="mailto:shellywhite@gmail.com" target="_blank"
+                >shellywhite@gmail.com</a
+              >
             </li>
             <li class="address">phone</li>
             <li class="contact">
@@ -61,6 +91,27 @@
           </ul>
         </div>
       </div>
+      <footer class="d-block d-lg-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          alt="SheCodes logo"
+          class="logo-image d-none d-lg-block"
+        />
+        <div class="social-links">
+          <a href="https://www.facebook.com/in/shelley-white/" target="_blank"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/in/shelley-white/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/shelley-white/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="copyright d-none d-lg-block">
+          © 2022 SheCodes All rights reserved.
+        </div>
+      </footer>
     </div>
   </body>
 </html>

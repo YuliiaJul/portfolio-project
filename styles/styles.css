@@ -213,11 +213,11 @@ footer .social-links a:hover {
   font-size: 16px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 28px;
     line-height: 1;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   h2 {
@@ -253,6 +253,7 @@ footer .social-links a:hover {
   .recipe-headline {
     text-align: center;
   }
+
   .about-dish-description {
     padding: 0;
     text-align: center;
@@ -261,13 +262,11 @@ footer .social-links a:hover {
 
   .recipe-steps {
     margin: 0 15px;
+    line-height: normal;
   }
 
-  .logo-image {
-    width: 70px;
-  }
-
-  .copyright {
-    font-size: 10px;
+  .about-image {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
