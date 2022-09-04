@@ -38,16 +38,16 @@ nav li.active a {
   margin-bottom: 60px;
 }
 
-.background-image {
-  filter: brightness(70%);
-}
-
 .headline-text {
   color: #ffff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.background-image {
+  filter: brightness(70%);
 }
 
 h1,
